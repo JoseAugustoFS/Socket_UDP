@@ -18,7 +18,7 @@ s.bind((host, port))
 
   
 while True:
-	print('waiting to receive message')
+	print('Aguardando receber mensagens')
 	data, address = s.recvfrom(1024)
 	data=data.decode()
     
